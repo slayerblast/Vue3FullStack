@@ -11,12 +11,17 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
+        <a class="nav-link" ><RouterLink :to="{name: 'todolist'} ">TODOLIST</RouterLink></a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" ><RouterLink :to="{name: 'connexion'} ">CONNEXION</RouterLink></a>
       </li>
       <li class="nav-item">
         <a class="nav-link " ><RouterLink :to="{name: 'inscription'} ">INSCRIPTION</RouterLink></a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link " ><RouterLink :to="{name: 'apropos'} ">A PROPOS</RouterLink></a>
+      </li>
     </ul>
   </div>
 </nav>

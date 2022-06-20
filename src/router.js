@@ -2,6 +2,8 @@ import {createWebHistory, createRouter} from "vue-router";
 import Accueil from "@/components/Accueil.vue"
 import Inscription from "@/components/Inscription.vue"
 import Connexion from "@/components/Connexion.vue"
+import Apropos from "@/components/Apropos.vue"
+import Todolist from "@/components/Todolist.vue"
 
 
 const router = createRouter({
@@ -21,6 +23,16 @@ const router = createRouter({
             path: "/connexion",
             name: 'connexion',
             component: Connexion,
+        },
+        {
+            path: "/todolist",
+            name: 'todolist',
+            component: Todolist,
+        },
+        {
+            path: "/apropos",
+            name: 'apropos',
+            component: Apropos,
         }
 
     ]

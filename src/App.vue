@@ -9,5 +9,5 @@ import Navbar from './components/Navbar.vue';
 <router-view></router-view>
 </template>
 <style>
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap/dist/css/bootstrap.min.css' ;
 </style>
